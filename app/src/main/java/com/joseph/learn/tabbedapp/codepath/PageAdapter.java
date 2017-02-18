@@ -35,7 +35,7 @@ public class PageAdapter extends FragmentPagerAdapter {
      */
     @Override
     public int getCount() {
-        return 0;
+        return 2;
     }
 
     /**
@@ -49,6 +49,6 @@ public class PageAdapter extends FragmentPagerAdapter {
      */
     @Override
     public CharSequence getPageTitle(int position) {
-        return super.getPageTitle(position);
+        return "Page " + position;
     }
 }
